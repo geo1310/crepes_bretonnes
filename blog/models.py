@@ -47,11 +47,15 @@ class Article(models.Model):
     >>> article.titre = "Salut !"
     >>> article.auteur = "Mathieu"
     >>> article.save()
-    >>> article.delete()
-    
-    
-    
-    
+    >>> article.delete() 
     
     '''
 
+
+class Contact(models.Model):
+    nom = models.CharField(max_length=255)
+    adresse = models.TextField()
+    photo = models.ImageField(upload_to="photos/")
+
+    def __str__(self):
+        return self.nom

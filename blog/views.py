@@ -1,8 +1,8 @@
 from django.http import HttpResponse, Http404
 from django.shortcuts import render, redirect, get_object_or_404
 from datetime import datetime
-from blog.models import Article
-from .forms import ContactForm, ArticleForm
+from blog.models import Article, Contact
+from .forms import ContactForm, ArticleForm, NouveauContactForm
 
 
 # Create your views here.
@@ -78,7 +78,7 @@ def contact(request):
         envoi = True
 
     # Quoiqu'il arrive, on affiche la page du formulaire.
-    return render(request, 'blog/contact.html', locals())
+    return render(request, 'blog/message.html', locals())
 
 def message(request):
     form = ArticleForm(request.POST)
@@ -89,3 +89,22 @@ def message(request):
 
     # Quoiqu'il arrive, on affiche la page du formulaire.
     return render(request, 'blog/message.html', locals())
+
+def nouveau_contact(request):
+    sauvegarde = False
+    form = NouveauContactForm(request.POST or None, request.FILES)
+    if form.is_valid():
+        contact=Contact()
+        contact.nom = form.cleaned_data["nom"]
+        contact.adresse = form.cleaned_data["adresse"]
+        contact.photo = form.cleaned_data["photo"]
+        contact.save()
+        sauvegarde = True
+
+    return render(request, 'blog/contact.html', {
+        'form': form,
+        'sauvegarde': sauvegarde
+    })
+
+def voir_contacts(request):
+    return render( request, 'blog/voir_contacts.html', {'contacts': Contact.objects.all()} )

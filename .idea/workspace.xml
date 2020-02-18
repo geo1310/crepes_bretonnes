@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9cac79-630a-4d73-8a7c-75c875164e13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/voir_contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crepes_bretonnes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crepes_bretonnes/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crepes_bretonnes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crepes_bretonnes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3-journal" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../disquaire_project/disquaire_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -68,11 +79,12 @@
     </state>
     <state x="1045" y="488" key="SettingsEditor/3840.136.1050.1630/-1680.-104.1680.1050/0.-2160.3072.1728/0.0.3072.1688@0.0.3072.1688" timestamp="1581869517720" />
     <state x="1045" y="488" key="SettingsEditor/3840.136.1050.1630/-1680.-104.1680.1050/0.0.3072.1688/0.-2160.3072.1728@0.0.3072.1688" timestamp="1581669444794" />
-    <state x="739" y="873" key="com.intellij.ide.util.TipDialog" timestamp="1581669466014">
+    <state x="739" y="873" key="com.intellij.ide.util.TipDialog" timestamp="1581971410947">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="1110" y="598" key="com.intellij.ide.util.TipDialog/0.0.3072.1688/3840.136.1050.1680/-1680.-104.1680.1050/0.-2160.3072.1728@0.0.3072.1688" timestamp="1580930386772" />
     <state x="793" y="423" key="com.intellij.ide.util.TipDialog/3840.136.1050.1610/-1680.-104.1680.1050/0.-2160.3072.1728/0.0.2194.1194@0.0.2194.1194" timestamp="1580802213956" />
+    <state x="739" y="873" key="com.intellij.ide.util.TipDialog/3840.136.1050.1630/-1680.-104.1680.1050/0.-2160.3072.1728/0.0.3072.1688@0.0.3072.1688" timestamp="1581971410947" />
     <state x="739" y="873" key="com.intellij.ide.util.TipDialog/3840.136.1050.1630/-1680.-104.1680.1050/0.0.3072.1688/0.-2160.3072.1728@0.0.3072.1688" timestamp="1581669466014" />
     <state x="824" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1581695957233">
       <screen x="0" y="0" width="3072" height="1688" />

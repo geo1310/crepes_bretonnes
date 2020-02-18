@@ -14,8 +14,9 @@ urlpatterns = [
     path('', views.accueil, name='accueil'),
     path('article/<int:id>-<slug:slug>', views.lire, name='lire'),
 
-    path('contact/', views.contact, name='contact'),
+    path('contact/', views.nouveau_contact, name='contact'),
     path('message/', views.message, name='message'),
+    path('voir_contacts/', views.voir_contacts, name='voir_contacts'),
 ]
 
 '''
