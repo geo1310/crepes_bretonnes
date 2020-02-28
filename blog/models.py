@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
+
 class Categorie(models.Model):
     nom = models.CharField(max_length=30, default="1")
 
@@ -28,16 +29,16 @@ class Article(models.Model):
         nous permettra de reconnaître facilement les différents objets que
         nous traiterons plus tard dans l'administration
         """
-        
+
         '''
 
     '''
     Créer la table SQL correspondante :
     python manage.py makemigrations 
     python manage.py migrate
-    
+
     Jouer avec une base sqlite :
-    
+
     $ python manage.py shell
     >>> from blog.models import Article # Commençons par importer le modèle que nous avons justement créé
     >>> article = Article(titre="Bonjour", auteur="Maxime")
@@ -48,14 +49,14 @@ class Article(models.Model):
     >>> article.auteur = "Mathieu"
     >>> article.save()
     >>> article.delete() 
-    
+
     '''
 
 
 class Contact(models.Model):
     nom = models.CharField(max_length=255)
     adresse = models.TextField()
-    photo = models.ImageField(upload_to="photos/")
+    photo = models.ImageField(upload_to="photos/")  # models.FileField pour un autre type fichier
 
     def __str__(self):
         return self.nom

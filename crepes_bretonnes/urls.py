@@ -24,5 +24,8 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
+    # pour mini_url
+    path('mini_url/', include('mini_url.urls')),
+
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # difference entre media_root et media_url ??

@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9cac79-630a-4d73-8a7c-75c875164e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/voir_contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_url/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_url/templates/mini_url/liste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_url/templates/mini_url/nouveau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_url/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/voir_contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/voir_contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crepes_bretonnes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crepes_bretonnes/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crepes_bretonnes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crepes_bretonnes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/dice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/inside-out-joy-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photos/robots.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +81,10 @@
     </state>
     <state x="1045" y="488" key="SettingsEditor/3840.136.1050.1630/-1680.-104.1680.1050/0.-2160.3072.1728/0.0.3072.1688@0.0.3072.1688" timestamp="1581869517720" />
     <state x="1045" y="488" key="SettingsEditor/3840.136.1050.1630/-1680.-104.1680.1050/0.0.3072.1688/0.-2160.3072.1728@0.0.3072.1688" timestamp="1581669444794" />
-    <state x="739" y="873" key="com.intellij.ide.util.TipDialog" timestamp="1581971410947">
+    <state x="1110" y="598" key="com.intellij.ide.util.TipDialog" timestamp="1582819915242">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="1110" y="598" key="com.intellij.ide.util.TipDialog/0.0.3072.1688/3840.136.1050.1680/-1680.-104.1680.1050/0.-2160.3072.1728@0.0.3072.1688" timestamp="1580930386772" />
+    <state x="1110" y="598" key="com.intellij.ide.util.TipDialog/0.0.3072.1688/3840.136.1050.1680/-1680.-104.1680.1050/0.-2160.3072.1728@0.0.3072.1688" timestamp="1582819915242" />
     <state x="793" y="423" key="com.intellij.ide.util.TipDialog/3840.136.1050.1610/-1680.-104.1680.1050/0.-2160.3072.1728/0.0.2194.1194@0.0.2194.1194" timestamp="1580802213956" />
     <state x="739" y="873" key="com.intellij.ide.util.TipDialog/3840.136.1050.1630/-1680.-104.1680.1050/0.-2160.3072.1728/0.0.3072.1688@0.0.3072.1688" timestamp="1581971410947" />
     <state x="739" y="873" key="com.intellij.ide.util.TipDialog/3840.136.1050.1630/-1680.-104.1680.1050/0.0.3072.1688/0.-2160.3072.1728@0.0.3072.1688" timestamp="1581669466014" />

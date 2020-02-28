@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from datetime import datetime
 from blog.models import Article, Contact
 from .forms import ContactForm, ArticleForm, NouveauContactForm
-
+from PIL import Image
 
 # Create your views here.
 
@@ -98,6 +98,7 @@ def nouveau_contact(request):
         contact.nom = form.cleaned_data["nom"]
         contact.adresse = form.cleaned_data["adresse"]
         contact.photo = form.cleaned_data["photo"]
+
         contact.save()
         sauvegarde = True
 
